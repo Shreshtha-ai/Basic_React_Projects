@@ -21,14 +21,15 @@ const anotherElement = (
 
 
 )
-
+const anotherUser = 'Shreshtha Agarwal'
 const reactElement = React.createElement(
   'a',
   {
     href: 'https://google.com',
     target: '_blank'
   },
-  'Visit Google'
+  'Visit Google',
+  anotherUser // cant write if else or any other statement, only evaluated expression is allowed beacuse it is evaluated expression 
 )
 createRoot(document.getElementById('root')).render(
   
