@@ -12,8 +12,13 @@ function App() {
   }
   function removeValue(){
     counter = counter -1;
+    if(counter>=0){
     setCounter(counter)
-    console.log("Value removed", counter);                 
+    console.log("Value removed", counter);  
+    }else{
+      alert("Counter value is 0")
+    }
+                
   }
 
   return (
