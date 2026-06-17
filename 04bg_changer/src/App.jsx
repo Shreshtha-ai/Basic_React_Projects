@@ -5,8 +5,9 @@ function App() {
 
   return (
     <>
-    <div className='w-full h-screen duration-200 bg-olive' 
+    <div className='w-full h-screen duration-200' 
     style = {{backgroundColor: color}}>
+    <h1 className = 'text-5xl font-bold flex flex-wrap justify-center pt-4 inset-x-0 px-2 mb-2'>Background Color Changer</h1>
       <div className = "fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2">
         <div className='flex flex-wrap justify-center gap-3 shadow-lg bg-white px-3 py-3 rounded-2xl'> 
           <button className='outline-none px-4 py-1 rounded-full shadow-lg text-white' style = {{backgroundColor:"red"}} onClick= {() => setColor("red")} >RED</button>
