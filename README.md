@@ -1,6 +1,6 @@
 # ⚛️ Basic React Projects
 
-A collection of beginner-friendly React projects built while learning React fundamentals. Each project focuses on a specific concept.
+A collection of beginner-friendly React projects I built while learning React fundamentals. Each project focuses on a specific concept.
 
 ## 📂 Projects
 
