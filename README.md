@@ -12,6 +12,7 @@ A collection of beginner-friendly React projects built while learning React fund
 | 02 | [02counter](./02counter) | `useState` hook, event handling, counter logic |
 | 03 | [03tailwind_props](./03tailwind_props) | Tailwind CSS setup, props, reusable components |
 | 04 | [04bg_changer](./04bg_changer) | State management, dynamic styling, onClick handlers |
+| 05 | [05password_genertor](./05password_genertor) | `useCallback`, `useEffect`, `useRef`, clipboard API, memoization |
 
 ## 🛠️ Tech Stack
 
@@ -26,7 +27,7 @@ A collection of beginner-friendly React projects built while learning React fund
 git clone https://github.com/Shreshtha-ai/Basic_React_Projects.git
 
 # Navigate into any project
-cd Basic_React_Projects/04bg_changer
+cd Basic_React_Projects/05password_genertor
 
 # Install dependencies
 npm install
@@ -43,3 +44,7 @@ npm run dev
 - Event handling (`onClick` with arrow functions)
 - Tailwind CSS for rapid styling
 - Dynamic inline styles with `style={{ }}`
+- `useCallback` for memoizing functions
+- `useEffect` for side effects and reactive updates
+- `useRef` for DOM element references
+- Clipboard API for copy-to-clipboard functionality
