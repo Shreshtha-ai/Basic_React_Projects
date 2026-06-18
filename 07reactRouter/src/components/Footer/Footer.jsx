@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Footer() {
     return (
-        <footer className="bg-white border-y">
+        <footer className="bg-white border-y shadow-inner">
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
@@ -78,7 +78,7 @@ export default function Footer() {
                         . All Rights Reserved.
                     </span>
                     <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
-                        <Link to="#" className="text-gray-500 hover:text-gray-900">
+                        <Link to="#" className="text-gray-500 hover:text-orange-600 transition-all duration-200 hover:scale-125">
                             <svg
                                 className="w-4 h-4"
                                 aria-hidden="true"
@@ -94,7 +94,7 @@ export default function Footer() {
                             </svg>
                             <span className="sr-only">Facebook page</span>
                         </Link>
-                        <Link to="#" className="text-gray-500">
+                        <Link to="#" className="text-gray-500 hover:text-orange-600 transition-all duration-200 hover:scale-125">
                             <svg
                                 className="w-4 h-4"
                                 aria-hidden="true"
@@ -106,7 +106,7 @@ export default function Footer() {
                             </svg>
                             <span className="sr-only">Discord community</span>
                         </Link>
-                        <Link to="#" className="text-gray-500">
+                        <Link to="#" className="text-gray-500 hover:text-orange-600 transition-all duration-200 hover:scale-125">
                             <svg
                                 className="w-4 h-4"
                                 aria-hidden="true"
@@ -122,7 +122,7 @@ export default function Footer() {
                             </svg>
                             <span className="sr-only">Twitter page</span>
                         </Link>
-                        <Link to="#" className="text-gray-500">
+                        <Link to="#" className="text-gray-500 hover:text-orange-600 transition-all duration-200 hover:scale-125">
                             <svg
                                 className="w-4 h-4"
                                 aria-hidden="true"
@@ -138,7 +138,7 @@ export default function Footer() {
                             </svg>
                             <span className="sr-only">GitHub account</span>
                         </Link>
-                        <Link to="#" className="text-gray-500">
+                        <Link to="#" className="text-gray-500 hover:text-orange-600 transition-all duration-200 hover:scale-125">
                             <svg
                                 className="w-4 h-4"
                                 aria-hidden="true"
