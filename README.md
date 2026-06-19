@@ -13,12 +13,15 @@ A collection of beginner-friendly React projects I built while learning React fu
 | 03 | [03tailwind_props](./03tailwind_props) | Tailwind CSS setup, props, reusable components |
 | 04 | [04bg_changer](./04bg_changer) | State management, dynamic styling, onClick handlers |
 | 05 | [05password_genertor](./05password_genertor) | `useCallback`, `useEffect`, `useRef`, clipboard API, memoization |
+| 06 | [06Currency_Converter](./06Currency_Converter) | Custom hooks, API fetching, reusable components, component design |
+| 07 | [07reactRouter](./07reactRouter) | React Router v6, `<Outlet>`, `NavLink`, `useParams`, `loader`, `useLoaderData` |
 
 ## 🛠️ Tech Stack
 
 - **React** — UI library
 - **Vite** — build tool & dev server
 - **Tailwind CSS v4** — utility-first styling (from project 03 onwards)
+- **React Router v6** — client-side routing (project 07)
 
 ## 🚀 Getting Started
 
@@ -48,3 +51,8 @@ npm run dev
 - `useEffect` for side effects and reactive updates
 - `useRef` for DOM element references
 - Clipboard API for copy-to-clipboard functionality
+- Custom hooks for reusable logic (`useCurrencyInfo`)
+- Fetching external APIs and transforming response data
+- React Router: `<Outlet>`, nested routes, `NavLink` with `isActive`
+- Dynamic route params with `useParams()`
+- Data pre-fetching with `loader` + `useLoaderData()`
