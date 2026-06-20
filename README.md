@@ -15,6 +15,8 @@ A collection of beginner-friendly React projects I built while learning React fu
 | 05 | [05password_genertor](./05password_genertor) | `useCallback`, `useEffect`, `useRef`, clipboard API, memoization |
 | 06 | [06Currency_Converter](./06Currency_Converter) | Custom hooks, API fetching, reusable components, component design |
 | 07 | [07reactRouter](./07reactRouter) | React Router v6, `<Outlet>`, `NavLink`, `useParams`, `loader`, `useLoaderData` |
+| 08 | [08mini_Context](./08mini_Context) | Context API, `createContext`, `useContext`, Provider pattern, global state |
+| 09 | [09theme_switcher](./09theme_switcher) | Context API, Tailwind CSS v4 dark mode, `useEffect`, class-based theme toggling |
 
 ## 🛠️ Tech Stack
 
@@ -22,6 +24,7 @@ A collection of beginner-friendly React projects I built while learning React fu
 - **Vite** — build tool & dev server
 - **Tailwind CSS v4** — utility-first styling (from project 03 onwards)
 - **React Router v6** — client-side routing (project 07)
+- **Context API** — global state management (projects 08–09)
 
 ## 🚀 Getting Started
 
@@ -56,3 +59,7 @@ npm run dev
 - React Router: `<Outlet>`, nested routes, `NavLink` with `isActive`
 - Dynamic route params with `useParams()`
 - Data pre-fetching with `loader` + `useLoaderData()`
+- Context API: `createContext`, `useContext`, Provider pattern
+- Sharing global state without prop drilling
+- Tailwind CSS v4 class-based dark mode with `@variant`
+- Toggling the `dark` class on `<html>` via `useEffect`
