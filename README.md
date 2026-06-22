@@ -17,6 +17,8 @@ A collection of beginner-friendly React projects I built while learning React fu
 | 07 | [07reactRouter](./07reactRouter) | React Router v6, `<Outlet>`, `NavLink`, `useParams`, `loader`, `useLoaderData` |
 | 08 | [08mini_Context](./08mini_Context) | Context API, `createContext`, `useContext`, Provider pattern, global state |
 | 09 | [09theme_switcher](./09theme_switcher) | Context API, Tailwind CSS v4 dark mode, `useEffect`, class-based theme toggling |
+| 10 | [10ToDo_List](./10ToDo_List) | Context API, `useEffect`, `localStorage`, CRUD operations, controlled components, immutable state |
+| 11 | [reduxToolkitTodo](./reduxToolkitTodo) | Redux Toolkit, `createSlice`, `configureStore`, `useSelector`, `useDispatch`, `nanoid`, Immer |
 
 ## 🛠️ Tech Stack
 
@@ -24,7 +26,10 @@ A collection of beginner-friendly React projects I built while learning React fu
 - **Vite** — build tool & dev server
 - **Tailwind CSS v4** — utility-first styling (from project 03 onwards)
 - **React Router v6** — client-side routing (project 07)
-- **Context API** — global state management (projects 08–09)
+- **Context API** — global state management (projects 08–10)
+- **Redux Toolkit** — centralized state management (project 11)
+- **react-redux** — React bindings for Redux (`Provider`, `useSelector`, `useDispatch`)
+- **localStorage** — browser persistence (project 10)
 
 ## 🚀 Getting Started
 
@@ -63,3 +68,13 @@ npm run dev
 - Sharing global state without prop drilling
 - Tailwind CSS v4 class-based dark mode with `@variant`
 - Toggling the `dark` class on `<html>` via `useEffect`
+- `localStorage` for persistent data (`JSON.stringify` / `JSON.parse`)
+- CRUD operations with immutable state (spread, `map`, `filter`)
+- Controlled components — React state as single source of truth
+- Redux Toolkit: `createSlice` for reducer + actions in one place
+- `configureStore` with auto DevTools and middleware
+- `useSelector` for reading store state, `useDispatch` for dispatching actions
+- `action.payload` — how data flows into reducers
+- `nanoid` for unique ID generation (bundled with RTK)
+- Immer — writing "mutating" code that's safely immutable under the hood
+- Context API vs Redux Toolkit — when to use which
